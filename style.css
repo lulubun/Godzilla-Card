@@ -1,0 +1,70 @@
+body {
+	background-color: white;
+	/* Typography Declarations */
+	color: #222222
+	font-size: 1em;
+	font-family: "Helvetica Neue"
+}
+.masthead-heading,
+.masthead-intro, 
+.content-footer {
+	text-align: center;
+	color: #FFCF33;
+	text-shadow: 1px 1px 1px #000;
+}
+.masthead {
+	padding: 6em 0;
+	background-image: url('http://www.publicdomainpictures.net/pictures/160000/velka/stars-pattern-background-wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: solid 1em #FFCF33;
+}
+.masthead-intro {
+	margin-bottom: 0.1em;
+	font-family: "gentium book basic";
+	font-size: 4em;
+}
+.masthead-heading {
+	margin-top: -0.2em;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	font-size: 12em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+}
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	color: #FF0000;
+
+}
+.social > li {
+	display: inline-block;
+}
+.content-footer > p {
+	color: red;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+	/* Typgraphy Declarations */
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+section > h1 {
+	margin-top: 2em;
+}
